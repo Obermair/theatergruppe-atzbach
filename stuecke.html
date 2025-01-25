@@ -1,0 +1,740 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="David Obermair">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+         <!-- favicon icon -->
+        <title>Theatergruppe Atzbach - Aufgeführte Stücke</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/theatergruppe/logo1.png" />
+        <!-- google fonts preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" href="css/vendors.min.css"/>
+        <link rel="stylesheet" href="css/icon.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        <link rel="stylesheet" href="demos/consulting/consulting.css" />
+    </head>
+    <body data-mobile-nav-style="classic">  
+        <header class="header-with-topbar">
+            <!-- start header top bar 
+            <div class="header-top-bar top-bar-light bg-white disable-fixed md-border-bottom border-color-transparent-dark-very-light">
+                <div class="container-fluid">
+                    <div class="row h-45px align-items-center m-0">
+                        <div class="col-md-6 text-center text-md-start">
+                            <div class="fs-14 text-dark-gray">Our consulting experts waiting for you! <a href="demo-consulting-contact.html" class="text-base-color fw-500 text-decoration-line-bottom">Contact now</a></div>
+                        </div>
+                        <div class="col-6 text-end d-none d-md-flex">
+                            <div class="widget fs-14 me-30px md-me-0"><a href="tel:02228899900" class="text-dark-gray"><i class="feather icon-feather-phone-call text-base-color"></i> 0222 8899900</a></div>
+                            <div class="widget fs-14 text-dark-gray d-none d-lg-inline-block"><i class="feather icon-feather-map-pin text-base-color"></i> Broadway, 24th Floor, San Francisco</div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+            <!-- end header top bar -->
+            <!-- start navigation -->
+            <nav class="navbar navbar-expand-lg header-transparent bg-transparent border-bottom border-color-transparent-white-light disable-fixed">
+                <div class="container-fluid">
+                    <div class="col-auto col-lg-2 me-auto">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/theatergruppe/logo2.png" data-at2x="images/theatergruppe/logo2.png" alt="" class="default-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="alt-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="mobile-logo"> 
+                        </a>
+                    </div>
+                    <div class="col-auto col-lg-8 menu-order position-static">
+                        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
+                            <ul class="navbar-nav alt-font"> 
+                                <li class="nav-item"><a href="index.html" class="nav-link">Startseite</a></li>
+                                <li class="nav-item"><a href="karten.html" class="nav-link">Karten</a></li>
+                                <li class="nav-item dropdown simple-dropdown">
+                                    <a href="stuecke.html" class="nav-link">Archiv</a>
+                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+                                        <li><a href="stuecke.html">Aufgeführte Stücke</a></li>
+                                        <li><a href="tradition.html">Theatertradition</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="index.html#ueber-uns" class="nav-link">Über uns</a></li>
+                                <li class="nav-item"><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto col-lg-2 text-end md-pe-0">
+                        <div class="header-icon">
+                            <div class="d-inline-block">
+                                <a href="karten.html" class="btn btn-small btn-white btn-box-shadow btn-round-edge">Karten reservieren</a>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <!-- end header -->
+        <!-- start page title -->
+        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url(images/theatergruppe/headers/2.jpg)">
+            <div class="opacity-light bg-dark-gray"></div>
+            <div class="container">
+                <div class="row align-items-center justify-content-center small-screen">
+                    <div class="col-lg-6 col-md-8 position-relative text-center page-title-extra-small" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
+                        <h2 class="mb-0 text-white alt-font ls-minus-2px text-shadow-double-large fw-500">Alle aufgeführten Stücke</h2>
+                    </div>
+                    <div class="down-section text-center" data-anime='{ "translateY": [100, 0], "opacity": [0,1], "easing": "easeOutQuad" }'>
+                        <a href="#down-section" class="section-link">
+                            <div class="fs-30 sm-fs-32 text-white">
+                                <i class="bi bi-mouse"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end page title -->
+        <!-- start section -->
+        <section class="bg-very-light-gray" id="down-section"> 
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <ul class="blog-grid blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-double-extra-large" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                            <li class="grid-sizer"></li>
+                            <!-- start blog item -->
+                         
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2018.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2018.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2018</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2018P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2017.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2017.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2017</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2017P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2016.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2016.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2016</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2016P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2015.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2015.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2015</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2015P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2014.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2014.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2014</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2014P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2013.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2013.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2013</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2013P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2012.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2012.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2012</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2012P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2011.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2011.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2011</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2011P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2010.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2010.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2010</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2010P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2009.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2009.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2009</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2009P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2008.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2008.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2008</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2008P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2007.jpg" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2007.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2007</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2007P.JPG" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2006.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2006.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2006</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2006P.JPG" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2005.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2005.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2005</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2005P.JPG" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2004.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2004.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2004</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2004P.JPG" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2003.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2003.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2003</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2003P.JPG" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2002.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2002.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2002</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/2002P.JPG" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2001.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2001.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2001</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/2000.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/2000.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 2000</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1999.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1999.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1999</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/1999P.jpg" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1998.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1998.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1998</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1997.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1997.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1997</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1996.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1996.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1996</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1995.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1995.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1995</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1994.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1994.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1994</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1993.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1993.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1993</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1992.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1992.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1992</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1991.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1991.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1991</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1990.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1990.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1990</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1989.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1989.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1989</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1988.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1988.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1988</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1987.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1987.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1987</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1986.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1986.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1986</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1985.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1985.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1985</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1984.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1984.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1984</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1983.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1983.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1983</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1982.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1982.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1982</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1981.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1981.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1981</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1980.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1980.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1980</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1979.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1979.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1979</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1978.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1978.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1978</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1977.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1977.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1977</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1976.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1976.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1976</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1975.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1975.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1975</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1973.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1973.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1973</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1972.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1972.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1972</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1970.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1970.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1970</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1968.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1968.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1968</p>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="grid-item">
+                                    <div class="card border-0 border-radius-4px box-shadow-medium box-shadow-extra-large-hover">
+                                        <div class="blog-image">
+                                            <a href="images/theatergruppe/flugzettelbilder/1967.JPG" target="_blank" class="d-block"><img src="images/theatergruppe/flugzettelbilder/1967.JPG" alt="" /></a>
+                                        </div>
+                                        <div class="card-body p-13 md-p-11">
+                                            <p class="card-title mb-15px alt-font fw-600 fs-20 text-dark-gray d-inline-block">Theaterstück 1967</p>
+                                            <a href="images/theatergruppe/flugzettelbilder/1967P.JPG" target="_blank" class="btn btn-link text-dark-gray text-decoration-line-bottom">Schauspieler</a>
+                                        </div>
+                                    </div>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end section --> 
+        <!-- start footer -->
+        <footer class="footer-light p-0 position-relative">
+            <div id="particles-04" class="position-absolute h-100 top-0 left-0 z-index-minus-1 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 5,"density": {"enable": true,"value_area": 1000}},"color":{"value":["#b7b9be", "#ab2f52"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.5,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 8,"random": true,"anim": {"enable": false,"sync": true}},"move": {"enable": true,"speed":2,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div>
+            <div class="container"> 
+                <div class="row justify-content-center align-items-center pt-5 sm-pt-30px">
+                    <!-- start divider -->
+                    <div class="col-12">
+                        <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray"></div>
+                    </div>
+                    <!-- end divider -->
+                    <!-- start footer menu -->
+                    <div class="col-lg-12 pt-25px pb-25px md-pb-5px fs-16 order-1 order-lg-2 text-center text-lg-center">
+                        <ul class="footer-navbar md-lh-normal"> 
+                            <li class="nav-item"><a href="impressum.html" class="nav-link">Impressum</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer menu -->
+                </div>
+            </div> 
+        </footer>
+        <!-- end footer -->
+         <!-- start scroll progress -->
+        <div class="scroll-progress d-none d-xxl-block">
+          <a href="#" class="scroll-top" aria-label="scroll">
+            <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+          </a>
+        </div>
+        <!-- end scroll progress -->
+        <!-- javascript libraries -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
