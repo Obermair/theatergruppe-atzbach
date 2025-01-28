@@ -1,12 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="David Obermair">
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
          <!-- favicon icon -->
-        <title>Theatergruppe Atzbach - Impressum</title>
+        <title class="cms-editable" id="page-title-impressum">Theatergruppe Atzbach - Impressum</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/theatergruppe/logo1.png" />
         <!-- google fonts preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -42,10 +41,10 @@
                 <div class="container-fluid">
                     <div class="col-auto col-lg-2 me-auto">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/theatergruppe/logo2.png" data-at2x="images/theatergruppe/logo2.png" alt="" class="default-logo">
-                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="alt-logo">
-                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="mobile-logo"> 
-                        </a>
+                            <img src="images/theatergruppe/logo2.png" data-at2x="images/theatergruppe/logo2.png" class="default-logo cms-editable" id="default-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="Alternate Logo" class="alt-logo cms-editable" id="alt-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="Mobile Logo" class="mobile-logo cms-editable" id="mobile-logo"> 
+                         </a>
                     </div>
                     <div class="col-auto col-lg-8 menu-order position-static">
                         <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
@@ -84,13 +83,13 @@
         </header>
         <!-- end header -->
         <!-- start page title -->
-        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url(images/theatergruppe/headers/8.jpg)">
+        <section class="page-title-big-typography bg-dark-gray ipad-top-space-margin xs-py-0" data-parallax-background-ratio="0.5" style="background-image: url(images/theatergruppe/headers/8.jpg);" id="impressum-section">
             <div class="opacity-light bg-dark-gray"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">
                     <div class="col-lg-6 col-md-8 position-relative text-center page-title-extra-small" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <h1 class="mb-5px alt-font text-white fw-400"><span class="opacity-6">Für den Inhalt veranwortlich</span></h1>
-                        <h2 class="mb-0 text-white alt-font ls-minus-2px text-shadow-double-large fw-500">Impressum</h2>
+                        <h1 class="mb-5px alt-font text-white fw-400 cms-editable" id="impressum-title">Für den Inhalt verantwortlich</h1>
+                        <h2 class="mb-0 text-white alt-font ls-minus-2px text-shadow-double-large fw-500 cms-editable" id="impressum-subtitle">Impressum</h2>
                     </div>
                     <div class="down-section text-center" data-anime='{ "translateY": [100, 0], "opacity": [0,1], "easing": "easeOutQuad" }'>
                         <a href="#down-section" class="section-link">
@@ -106,21 +105,22 @@
         <!-- start section -->
         <section class="bg-very-light-gray">
             <div class="container"> 
-
+        
                 <div class="row justify-content-center">
                     <div class="col-xl-12">
                         <div class="row" data-anime='{ "el": "childs", "perspective": [1200,1200], "willchange": "transform", "translateY": [0, 0], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                             <!-- start content box -->
                             <div class="col mb-30px last-paragraph-no-margin text-center">
                                 <div class="bg-white h-100 ps-50px pe-50px pt-40px pb-40px xs-p-30px box-shadow-quadruple-large border-radius-5px">
-                                    <span class="text-dark-gray mb-5px d-inline-block fs-20 fw-600">Theatergruppe Atzbach</span>
-                                    <p>
+                                    <span class="text-dark-gray mb-5px d-inline-block fs-20 fw-600 cms-editable" id="group-name">Theatergruppe Atzbach</span>
+                                    <p class="cms-editable" id="group-contact">
                                         ZVR-Zahl: 395591603
-                                       <br> Anna Feischl
-                                       <br>  Wufinger Straße 10/4
-                                       <br>  4904 Atzbach
-                                       <br>  0650/9781008
-                                       <br>  info@thatergruppe-atzbach.at</p>
+                                        <br> Anna Feischl
+                                        <br> Wufinger Straße 10/4
+                                        <br> 4904 Atzbach
+                                        <br> 0650/9781008
+                                        <br> <a href="mailto:info@thatergruppe-atzbach.at" class="cms-editable" id="group-email">info@thatergruppe-atzbach.at</a>
+                                    </p>
                                 </div>
                             </div>
                             <!-- end content box -->
@@ -130,6 +130,7 @@
                 
             </div>
         </section>
+        
         <!-- end section -->
 
         <!-- start footer -->

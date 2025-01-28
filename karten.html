@@ -1,12 +1,7 @@
-﻿<!doctype html>
-<html class="no-js" lang="en">
+﻿<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="David Obermair">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-         <!-- favicon icon -->
-        <title>Theatergruppe Atzbach - Karten</title>
+        <!-- favicon icon -->
+        <title class="cms-editable" id="page-title-karten">Theatergruppe Atzbach - Karten</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/theatergruppe/logo1.png" />
         <!-- google fonts preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -17,6 +12,10 @@
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="stylesheet" href="demos/consulting/consulting.css" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="David Obermair">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     </head>
     <body data-mobile-nav-style="classic">  
         <!-- start header -->
@@ -42,9 +41,9 @@
                 <div class="container-fluid">
                     <div class="col-auto col-lg-2 me-auto">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/theatergruppe/logo2.png" data-at2x="images/theatergruppe/logo2.png" alt="" class="default-logo">
-                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="alt-logo">
-                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="mobile-logo"> 
+                            <img src="images/theatergruppe/logo2.png" data-at2x="images/theatergruppe/logo2.png" class="default-logo cms-editable" id="default-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="Alternate Logo" class="alt-logo cms-editable" id="alt-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="Mobile Logo" class="mobile-logo cms-editable" id="mobile-logo"> 
                         </a>
                     </div>
                     <div class="col-auto col-lg-8 menu-order position-static">
@@ -89,7 +88,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen">
                     <div class="col-lg-6 col-md-8 position-relative text-center page-title-extra-small" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <h2 class="mb-0 text-white alt-font ls-minus-2px text-shadow-double-large fw-500">Karten reservieren</h2>
+                        <h2 class="mb-0 text-white alt-font ls-minus-2px text-shadow-double-large fw-500 cms-editable" id="karten-title">Karten reservieren</h2>
                     </div>
                     <div class="down-section text-center" data-anime='{ "translateY": [100, 0], "opacity": [0,1], "easing": "easeOutQuad" }'>
                         <a href="#down-section" class="section-link">
@@ -124,8 +123,8 @@
                                                 <div class="feature-box-content">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="#ab2f52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="20.5" r="1"/><circle cx="18" cy="20.5" r="1"/><path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1"/></svg>
                                                     <br><br>
-                                                    <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Kartenvorverkauf</span>
-                                                    <p class="w-90 md-w-100">Gemeindeamt Atzbach
+                                                    <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20 cms-editable" id="kartenverkauf-title">Kartenvorverkauf</span>
+                                                    <p class="w-90 md-w-100 cms-editable" id="karten-title">Gemeindeamt Atzbach
                                                         <br>Am Ortsplatz 3/1, 4904 Atzbach
                                                         <br>(ab Mitte Jänner, werktags von 08:00-12:00)</p>
                                                 </div>
@@ -143,8 +142,8 @@
                                             <div class="feature-box-content">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="#ab2f52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                                                 <br><br>
-                                                <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Telefonische Reservierung</span>
-                                                <p class="w-90 md-w-100">Gemeindeamt Atzbach
+                                                <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20 cms-editable" id="phone-title">Telefonische Reservierung</span>
+                                                <p class="w-90 md-w-100 cms-editable" id="phone-info">Gemeindeamt Atzbach
                                                     <br>07676 / 8415
                                                     <br>(ab Mitte Jänner, werktags von 08:00-12:00)</p>
                                             </div>
@@ -160,11 +159,10 @@
                                         <div class="feature-box-content">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="#ab2f52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
                                             <br><br>
-                                            <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Online Reservierung
-                                            </span>
-                                            <p class="w-90 md-w-100">Freischaltung Online Reservierung Mitte Jänner</p>
-                                            <a href="https://www.ticketlotse.com/event/?id=1215" target="_blank"  class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px">Zur Onlinereservierung</a>
-                                            <a href="https://www.ticketlotse.com/storno/?event=1215" target="_blank" class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px">Sie wollen Karten stornieren?</a>
+                                            <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20 cms-editable" id="online-title">Online Reservierung
+                                            <p class="w-90 md-w-100 cms-editable" id="feature-content-3">Freischaltung Online Reservierung Mitte Jänner</p>
+                                            <a href="https://www.ticketlotse.com/event/?id=1215" target="_blank" class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px cms-editable" id="feature-link-1">Zur Onlinereservierung</a>
+                                            <a href="https://www.ticketlotse.com/storno/?event=1215" target="_blank" class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px cms-editable" id="feature-link-2">Sie wollen Karten stornieren?</a>
                                     
                                         </div>
                                     </div>
@@ -192,12 +190,12 @@
                                 <div class="accordion-header border-bottom border-color-extra-medium-gray">
                                     <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-01" aria-expanded="true" data-bs-parent="#accordion-style-02">
                                         <div class="accordion-title mb-0 position-relative text-dark-gray">
-                                            <i class="feather icon-feather-minus"></i><span class="fw-600 fs-20">Eintrittspreise:</span>
+                                            <i class="feather icon-feather-minus"></i><span class="fw-600 fs-20 cms-editable" id="accordion-title">Eintrittspreise:</span>
                                         </div>
                                     </a>
                                 </div>
                                 <div id="accordion-style-02-01" class="accordion-collapse collapse show" data-bs-parent="#accordion-style-02">
-                                    <div class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray">
+                                    <div class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray cms-editable" id="accordion-content">
                                         <p>Erwachsene: € 14,00<br>
                                             Kinder: € 7,00 (bis zum vollendeten 15. Lebensjahr)
                                             <br> 
@@ -205,41 +203,47 @@
                                             Stornobedinungen:
                                             <br>
                                             Alle reservierten Karten, die bis spätestens 10min vor der Vorstellung nicht abgeholt werden, werden dem freien Verkauf zur Verfügung gestellt!
-                                            </p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
+                            
                             <!-- end accordion item -->
                             <!-- start accordion item -->
                             <div class="accordion-item">
                                 <div class="accordion-header border-bottom border-color-extra-medium-gray">
                                     <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-02" aria-expanded="false" data-bs-parent="#accordion-style-02">
                                         <div class="accordion-title mb-0 position-relative text-dark-gray">
-                                            <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20">Gruppenanmeldungen</span>
+                                            <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20 cms-editable" id="accordion-group-title">Gruppenanmeldungen</span>
                                         </div>
                                     </a>
                                 </div>
                                 <div id="accordion-style-02-02" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
                                     <div class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray">
-                                        <p>Mail: anni.feischl@gmail.com
+                                        <p class="cms-editable" id="accordion-group-content">
+                                            Mail: <a href="mailto:anni.feischl@gmail.com" class="cms-editable" id="group-email">anni.feischl@gmail.com</a>
                                             <br>
-                                            Telefon: 0650/9781008 Fr. Anna Feischl (Mi. und Fr. 14:00-17:00)
+                                            Telefon: <span class="cms-editable" id="group-phone">0650/9781008 Fr. Anna Feischl (Mi. und Fr. 14:00-17:00)</span>
                                             <br><br>
-                                            Tipp: Wenn sie einen Gruppenbesuch organisieren möchten, empfehlen wir ihnen das kostenlose Werkzeug <b>"<a href="https://doodle.com/de/">Doodle</a>"</b>.
+                                            Tipp: Wenn sie einen Gruppenbesuch organisieren möchten, empfehlen wir ihnen das kostenlose Werkzeug <b>"<a href="https://doodle.com/de/" class="cms-editable" id="group-tool-link">Doodle</a>"</b>.
                                             <br>
                                             <b>Freikarten für Organisation:</b>
-                                            <br>Gruppengröße 20 - 29 Personen 1 Freikarte
-                                            <br>Gruppengröße 30 - 39 Personen 2 Freikarten
-                                            <br>Gruppengröße 40 - 49 Personen 3 Freikarten
-                                            <br>Gruppengröße 50 - 59 Personen 4 Freikarten
+                                            <br><span class="cms-editable" id="group-freecards">
+                                            Gruppengröße 20 - 29 Personen 1 Freikarte<br>
+                                            Gruppengröße 30 - 39 Personen 2 Freikarten<br>
+                                            Gruppengröße 40 - 49 Personen 3 Freikarten<br>
+                                            Gruppengröße 50 - 59 Personen 4 Freikarten
+                                            </span>
                                             <br><br>
                                             Gerne organisieren wir für Gruppen (Vereine, Firmen, ...) auf Anfrage auch div. Arrangements wie z.B.:
-                                            <li>Kaffee und Kuchen vor der Aufführung</li>
-                                            <li>div. Speisen und Getränkepakete</li>
-                                            <li>Buchung einer gesamten Vorstellung + Möglichkeit für Eventualitäten im Saal bzw. auf der Bühne></li>
+                                            <li class="cms-editable" id="group-arrangement-1">Kaffee und Kuchen vor der Aufführung</li>
+                                            <li class="cms-editable" id="group-arrangement-2">div. Speisen und Getränkepakete</li>
+                                            <li class="cms-editable" id="group-arrangement-3">Buchung einer gesamten Vorstellung + Möglichkeit für Eventualitäten im Saal bzw. auf der Bühne</li>
                                             <br><br>
-                                            Stornobedinungen für Gruppenreservierungen ab 10 Personen:
+                                            <b>Stornobedinungen für Gruppenreservierungen ab 10 Personen:</b>
+                                            <br><span class="cms-editable" id="group-cancellation-policy">
                                             Innerhalb 14 Tagen vor dem Aufführungstermin können einmalig maximal 10 Karten storniert werden. Alle weiteren retournierten Karten müssen in Rechnung gestellt werden.
+                                            </span>
                                         </p>
                                     </div>
                                 </div>
@@ -250,22 +254,23 @@
                                 <div class="accordion-header border-bottom border-color-extra-medium-gray">
                                     <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-03" aria-expanded="false" data-bs-parent="#accordion-style-02">
                                         <div class="accordion-title mb-0 position-relative text-dark-gray">
-                                            <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20">Wertgutscheine zu € 10,00</span>
+                                            <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20 cms-editable" id="accordion-voucher-title">Wertgutscheine zu € 10,00</span>
                                         </div>
                                     </a>
                                 </div>
                                 <div id="accordion-style-02-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
-                                    <div class="accordion-body last-paragraph-no-margin border-bottom border-color-extra-medium-gray">
+                                    <div class="accordion-body last-paragraph-no-margin border-bottom border-color-extra-medium-gray cms-editable" id="accordion-voucher-content">
                                         <p>Schenken sie Freude, Humor und Gelassenheit, passend für viele Anlässe:
-                                            <br> ... zum Geburtstag, zu Weihnachten
-                                            <br>... als Gastgeschenk bzw. als Mitbringsel
-                                            <br>... um miteinander Zeit zu verbringen
-                                            <br>... zum Jubiläum
-                                            <br>... zur Motivation bzw. zur Entschleunigung
-                                            <br>... als besonderes Dankeschön
+                                            <br><span class="cms-editable" id="voucher-birthday">... zum Geburtstag, zu Weihnachten</span>
+                                            <br><span class="cms-editable" id="voucher-guest-gift">... als Gastgeschenk bzw. als Mitbringsel</span>
+                                            <br><span class="cms-editable" id="voucher-time-together">... um miteinander Zeit zu verbringen</span>
+                                            <br><span class="cms-editable" id="voucher-anniversary">... zum Jubiläum</span>
+                                            <br><span class="cms-editable" id="voucher-motivation">... zur Motivation bzw. zur Entschleunigung</span>
+                                            <br><span class="cms-editable" id="voucher-thankyou">... als besonderes Dankeschön</span>
                                             <br> <br>
                                             Theatergutscheine können jederzeit per Mail angefordert werden
-                                            (auch Atzbacher Einkaufsgutscheine sind einlösbar)</p>
+                                            (auch Atzbacher Einkaufsgutscheine sind einlösbar)
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -275,13 +280,13 @@
                                 <div class="accordion-header border-bottom border-color-extra-medium-gray">
                                     <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-04" aria-expanded="false" data-bs-parent="#accordion-style-02">
                                         <div class="accordion-title mb-0 position-relative text-dark-gray">
-                                            <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20">Parkplätze:</span>
+                                            <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20 cms-editable" id="parkplatz">Parkplätze:</span>
                                         </div>
                                     </a>
                                 </div>
                                 <div id="accordion-style-02-04" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
                                     <div class="accordion-body last-paragraph-no-margin border-bottom border-color-extra-medium-gray">
-                                        <p> - ausreichend PKW- und Busparkplätze direkt neben dem Veranstaltungssaal
+                                        <p class="cms-editable" id="parkplatz-info"> - ausreichend PKW- und Busparkplätze direkt neben dem Veranstaltungssaal
                                             <br>- ausgebildete Lotsen sorgen für einen kontrollierten Ablauf am Parkplatz
                                         </p>
                                     </div>
@@ -293,13 +298,13 @@
                             <div class="accordion-header border-bottom border-color-extra-medium-gray">
                                 <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-05" aria-expanded="false" data-bs-parent="#accordion-style-02">
                                     <div class="accordion-title mb-0 position-relative text-dark-gray">
-                                        <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20">Zusätzlich gibt es:</span>
+                                        <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20 cms-editable" id="zusatz">Zusätzlich gibt es:</span>
                                     </div>
                                 </a>
                             </div>
                             <div id="accordion-style-02-05" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
                                 <div class="accordion-body last-paragraph-no-margin border-bottom border-color-extra-medium-gray">
-                                    <p>- die kostenlose Möglichkeit zur Nutzung der Garderobe
+                                    <p class="cms-editable" id="zusatz-info">- die kostenlose Möglichkeit zur Nutzung der Garderobe
                                        <br> - ein Angebot von Speisen und Getränken vor der Aufführung und in der großen Pause im Parterre, weiters auch an Freitagen und Samstagen nach der Abendvorstellung geöffnet  
                                     </p>
                                 </div>
@@ -310,13 +315,13 @@
                             <div class="accordion-header border-bottom border-color-transparent">
                                 <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-06" aria-expanded="false" data-bs-parent="#accordion-style-02">
                                     <div class="accordion-title mb-0 position-relative text-dark-gray">
-                                        <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20">Bretter, die die Welt bedeuten - vielleicht ist dein persönliches Debüt schon zum Greifen nah</span>
+                                        <i class="feather icon-feather-plus"></i><span class="fw-600 fs-20 cms-editable" id="recruiting">Bretter, die die Welt bedeuten - vielleicht ist dein persönliches Debüt schon zum Greifen nah</span>
                                     </div>
                                 </a>
                             </div>
                             <div id="accordion-style-02-06" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
                                 <div class="accordion-body last-paragraph-no-margin border-bottom border-color-transparent">
-                                    <p>Wir sind immer wieder auf der Suche nach Interessenten, die bei einer Produktion der Theatergruppe Atzbach als SchauspielerIn mitwirken möchten.
+                                    <p class="cms-editable" id="recruiting-info">Wir sind immer wieder auf der Suche nach Interessenten, die bei einer Produktion der Theatergruppe Atzbach als SchauspielerIn mitwirken möchten.
                                         <br>
                                         Vielleicht hast du ja Lust, dich in deiner Freizeit mit einem tollen Team von jung bis alt zu engagieren, um gemeinsam Großes, Erfüllendes und Spaßiges zu erfahren.
                                         <br>
@@ -340,7 +345,7 @@
             <div class="container position-relative"> 
                 <div class="row align-items-center justify-content-center text-start text-sm-center text-lg-start">
                     <div class="col-xl-5 col-lg-6 col-md-7 md-mb-25px">
-                        <h2 class="alt-font text-white fw-500 mb-0 cd-headline zoom fancy-text-style-4 text-shadow-double-large ls-minus-1px">Noch Fragen?
+                        <h2 class="alt-font text-white fw-500 mb-0 cd-headline zoom fancy-text-style-4 text-shadow-double-large ls-minus-1px cms-editable" id="questions">Noch Fragen?
                         </h2>
                     </div>
                     <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 offset-xl-1 icon-with-text-style-08">
@@ -349,7 +354,7 @@
                                 <i class="line-icon-Handshake icon-extra-large text-white lh-100"></i>
                             </div>
                             <div class="feature-box-content last-paragraph-no-margin xs-mt-15px xs-mb-15px">
-                                <span class="fs-24 lh-32 xs-fs-22 xs-lh-32 text-white">Du kannst dich gerne bei uns melden <br><a href="index.html#kontakt" class="text-decoration-line-bottom text-white fw-500">Zur Kontaktseite</a></span>
+                                <span class="fs-24 lh-32 xs-fs-22 xs-lh-32 text-white cms-editable" id="melden">Du kannst dich gerne bei uns melden <br><a href="index.html#kontakt" class="text-decoration-line-bottom text-white fw-500 cms-editable" id="contact-link">Zur Kontaktseite</a></span>
                             </div>
                         </div>
                     </div> 

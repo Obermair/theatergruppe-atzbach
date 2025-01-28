@@ -1,10 +1,5 @@
-﻿<!doctype html>
-<html class="no-js" lang="en">
+﻿<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="David Obermair">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <!-- favicon icon -->
         <title>Theatergruppe Atzbach</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/theatergruppe/logo1.png" />
@@ -17,34 +12,29 @@
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="stylesheet" href="demos/consulting/consulting.css" />
+        <style>
+            .slide-background {
+                background-image: url('images/1.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="David Obermair">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
         <header class="header-with-topbar">
-            <!-- start header top bar 
-            <div class="header-top-bar top-bar-light bg-white disable-fixed md-border-bottom border-color-transparent-dark-very-light">
-                <div class="container-fluid">
-                    <div class="row h-45px align-items-center m-0">
-                        <div class="col-md-6 text-center text-md-start">
-                            <div class="fs-14 text-dark-gray">Our consulting experts waiting for you! <a href="demo-consulting-contact.html" class="text-base-color fw-500 text-decoration-line-bottom">Contact now</a></div>
-                        </div>
-                        <div class="col-6 text-end d-none d-md-flex">
-                            <div class="widget fs-14 me-30px md-me-0"><a href="tel:02228899900" class="text-dark-gray"><i class="feather icon-feather-phone-call text-base-color"></i> 0222 8899900</a></div>
-                            <div class="widget fs-14 text-dark-gray d-none d-lg-inline-block"><i class="feather icon-feather-map-pin text-base-color"></i> Broadway, 24th Floor, San Francisco</div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            -->
-            <!-- end header top bar -->
-            <!-- start navigation -->
             <nav class="navbar navbar-expand-lg header-transparent bg-transparent border-bottom border-color-transparent-white-light disable-fixed">
                 <div class="container-fluid">
                     <div class="col-auto col-lg-2 me-auto">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/theatergruppe/logo2.png" data-at2x="images/theatergruppe/logo2.png" alt="" class="default-logo">
-                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="alt-logo">
-                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="" class="mobile-logo"> 
+                            <img src="images/theatergruppe/logo2.png" data-at2x="images/theatergruppe/logo2.png" class="default-logo cms-editable" id="default-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="Alternate Logo" class="alt-logo cms-editable" id="alt-logo">
+                            <img src="images/theatergruppe/logo1.png" data-at2x="images/theatergruppe/logo1.png" alt="Mobile Logo" class="mobile-logo cms-editable" id="mobile-logo"> 
                         </a>
                     </div>
                     <div class="col-auto col-lg-8 menu-order position-static">
@@ -85,30 +75,27 @@
         <!-- end header -->
         <!-- start section -->
         <section class="p-0 bg-dark-gray">
-            <div class="swiper full-screen bg-dark-gray ipad-top-space-margin md-h-600px sm-h-500px swiper-number-pagination-style-02 magic-cursor light magic-cursor-vertical lg-no-parallax" data-slider-options='{ "slidesPerView": 1, "direction": "horizontal", "loop": true, "parallax": true, "speed": 1000, "pagination": { "el": ".swiper-number", "clickable": true }, "autoplay": { "delay": 40000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1199": { "direction": "vertical" }}, "effect": "slide" }' data-number-pagination="1">
+            <div class="swiper bg-dark-gray ipad-top-space-margin md-h-600px sm-h-500px swiper-number-pagination-style-02 magic-cursor light magic-cursor-vertical lg-no-parallax" data-slider-options='{ "slidesPerView": 1, "direction": "horizontal", "loop": true, "parallax": true, "speed": 1000, "pagination": { "el": ".swiper-number", "clickable": true }, "autoplay": { "delay": 40000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1199": { "direction": "vertical" }}, "effect": "slide" }' data-number-pagination="1">
                 <div class="swiper-wrapper">
-                    <!-- start slider item -->
                     <div class="swiper-slide overflow-hidden">
-                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" data-swiper-parallax="500" style="background-image:url('images/theatergruppe/headers/1.jpg');">
+                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100"  style="background-image:url('images/theatergruppe/headers/1.jpg');">
                             <div class="opacity-light bg-dark-gray"></div>
                             <div class="container h-100">
                                 <div class="row align-items-center h-100 justify-content-center">
                                     <div class="col-md-10 position-relative text-white d-flex flex-column justify-content-center h-100 text-center">  
                                         <div class="alt-font fs-100 xs-fs-80 lh-100 xs-mb-15px ls-minus-4px xs-ls-minus-2px text-shadow-double-large transform-origin-right" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
-                                            <span class="d-inline-block">Theatergruppe</span>
-                                            <span class="d-inline-block fw-600">Atzbach</span>
+                                            <span class="d-inline-block cms-editable" id="slide-title-1">Theatergruppe</span>
+                                            <span class="d-inline-block fw-600 cms-editable" id="slide-subtitle-1">Atzbach</span>
                                         </div>
-                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
+                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large cms-editable" id="slide-text-1">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
                                         <div  data-anime='{  "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="index.html#aktuelles-stueck" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge">Aktuelles Theaterstück</a>
+                                            <a href="index.html#aktuelles-stueck" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge cms-editable" id="slide-button-1">Aktuelles Theaterstück</a>
                                         </div>
                                     </div>
                                 </div> 
                             </div>
                         </div>
                     </div>
-                    <!-- end slider item -->
-                    <!-- start slider item -->
                     <div class="swiper-slide overflow-hidden">
                         <div class="cover-background position-absolute top-0 start-0 w-100 h-100" data-swiper-parallax="500" style="background-image:url('images/theatergruppe/headers/2.jpg');">
                             <div class="opacity-light bg-dark-gray"></div>
@@ -116,20 +103,18 @@
                                 <div class="row align-items-center h-100 justify-content-center">
                                     <div class="col-md-10 position-relative text-white d-flex flex-column justify-content-center h-100 text-center">  
                                         <div class="alt-font fs-100 xs-fs-80 lh-100 xs-mb-15px ls-minus-4px xs-ls-minus-2px text-shadow-double-large transform-origin-right" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
-                                            <span class="d-inline-block">Theatergruppe</span>
-                                            <span class="d-inline-block fw-600">Atzbach</span>
+                                            <span class="d-inline-block cms-editable" id="slide-title-2">Theatergruppe</span>
+                                            <span class="d-inline-block fw-600 cms-editable" id="slide-subtitle-2">Atzbach</span>
                                         </div>
-                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
+                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large cms-editable" id="slide-text-2">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
                                         <div  data-anime='{  "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="#" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge">Aktuelles Theaterstück</a>
+                                            <a href="index.html#aktuelles-stueck" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge cms-editable" id="slide-button-2">Aktuelles Theaterstück</a>
                                         </div>
                                     </div>
                                 </div> 
                             </div>
                         </div>
                     </div>
-                    <!-- end slider item -->
-                    <!-- start slider item -->
                     <div class="swiper-slide overflow-hidden">
                         <div class="cover-background position-absolute top-0 start-0 w-100 h-100" data-swiper-parallax="500" style="background-image:url('images/theatergruppe/headers/3.jpg');">
                             <div class="opacity-light bg-dark-gray"></div>
@@ -137,12 +122,12 @@
                                 <div class="row align-items-center h-100 justify-content-center">
                                     <div class="col-md-10 position-relative text-white d-flex flex-column justify-content-center h-100 text-center">  
                                         <div class="alt-font fs-100 xs-fs-80 lh-100 xs-mb-15px ls-minus-4px xs-ls-minus-2px text-shadow-double-large transform-origin-right" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
-                                            <span class="d-inline-block">Theatergruppe</span>
-                                            <span class="d-inline-block fw-600">Atzbach</span>
+                                            <span class="d-inline-block cms-editable" id="slide-title-3">Theatergruppe</span>
+                                            <span class="d-inline-block fw-600 cms-editable" id="slide-subtitle-3">Atzbach</span>
                                         </div>
-                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
+                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large cms-editable" id="slide-text-3">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
                                         <div  data-anime='{  "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="#" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge">Aktuelles Theaterstück</a>
+                                            <a href="index.html#aktuelles-stueck" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge cms-editable" id="slide-button-3">Aktuelles Theaterstück</a>
                                         </div>
                                     </div>
                                 </div> 
@@ -156,12 +141,12 @@
                                 <div class="row align-items-center h-100 justify-content-center">
                                     <div class="col-md-10 position-relative text-white d-flex flex-column justify-content-center h-100 text-center">  
                                         <div class="alt-font fs-100 xs-fs-80 lh-100 xs-mb-15px ls-minus-4px xs-ls-minus-2px text-shadow-double-large transform-origin-right" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
-                                            <span class="d-inline-block">Theatergruppe</span>
-                                            <span class="d-inline-block fw-600">Atzbach</span>
+                                            <span class="d-inline-block cms-editable" id="slide-title-4">Theatergruppe</span>
+                                            <span class="d-inline-block fw-600 cms-editable" id="slide-subtitle-4">Atzbach</span>
                                         </div>
-                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
+                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large cms-editable" id="slide-text-4">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
                                         <div  data-anime='{  "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="#" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge">Aktuelles Theaterstück</a>
+                                            <a href="index.html#aktuelles-stueck" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge cms-editable" id="slide-button-4">Aktuelles Theaterstück</a>
                                         </div>
                                     </div>
                                 </div> 
@@ -175,19 +160,18 @@
                                 <div class="row align-items-center h-100 justify-content-center">
                                     <div class="col-md-10 position-relative text-white d-flex flex-column justify-content-center h-100 text-center">  
                                         <div class="alt-font fs-100 xs-fs-80 lh-100 xs-mb-15px ls-minus-4px xs-ls-minus-2px text-shadow-double-large transform-origin-right" data-anime='{ "el": "childs", "rotateX": [90, 0], "opacity": [0,1], "staggervalue": 150, "easing": "easeOutQuad" }'>
-                                            <span class="d-inline-block">Theatergruppe</span>
-                                            <span class="d-inline-block fw-600">Atzbach</span>
+                                            <span class="d-inline-block cms-editable" id="slide-title-5">Theatergruppe</span>
+                                            <span class="d-inline-block fw-600 cms-editable" id="slide-subtitle-5">Atzbach</span>
                                         </div>
-                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
+                                        <div data-anime='{ "opacity": [0, 1], "duration": 500, "delay": 1000, "easing": "easeOutQuad" }' class="fs-20 alt-font mb-2 mt-2 w-100 text-shadow-double-large cms-editable" id="slide-text-5">Herzlich willkommen auf der Website der Theatergruppe Atzbach.</a></div>
                                         <div  data-anime='{  "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                            <a href="#" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge">Aktuelles Theaterstück</a>
+                                            <a href="index.html#aktuelles-stueck" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge cms-editable" id="slide-button-5">Aktuelles Theaterstück</a>
                                         </div>
                                     </div>
                                 </div> 
                             </div>
                         </div>
                     </div>
-                    <!-- end slider item -->
                 </div>
                 <!-- start slider pagination -->
                 <div class="swiper-pagination container swiper-pagination-clickable swiper-pagination-bullets-right swiper-number"></div> 
@@ -206,8 +190,8 @@
                             <div class="feature-box-content">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="#ab2f52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="20.5" r="1"/><circle cx="18" cy="20.5" r="1"/><path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1"/></svg>
                                 <br><br>
-                                <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Kartenvorverkauf</span>
-                                <p class="w-90 md-w-100">Gemeindeamt Atzbach
+                                <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20 cms-editable" id="feature-title-1">Kartenvorverkauf</span>
+                                <p class="w-90 md-w-100 cms-editable" id="feature-content-1">Gemeindeamt Atzbach
                                     <br>Am Ortsplatz 3/1, 4904 Atzbach
                                     <br>(ab Mitte Jänner, werktags von 08:00-12:00)</p>
                             </div>
@@ -220,8 +204,8 @@
                             <div class="feature-box-content">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="#ab2f52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                                 <br><br>
-                                <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Telefonische Reservierung</span>
-                                <p class="w-90 md-w-100">Gemeindeamt Atzbach
+                                <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20 cms-editable" id="feature-title-2">Telefonische Reservierung</span>
+                                <p class="w-90 md-w-100 cms-editable" id="feature-content-2">Gemeindeamt Atzbach
                                     <br>07676 / 8415
                                     <br>(ab Mitte Jänner, werktags von 08:00-12:00)</p>
                             </div>
@@ -237,9 +221,9 @@
                                 <br><br>
                                 <span class="d-inline-block alt-font text-dark-gray fw-600 mb-5px fs-20">Online Reservierung
                                 </span>
-                                <p class="w-90 md-w-100">Freischaltung Online Reservierung Mitte Jänner</p>
-                                <a href="https://www.ticketlotse.com/event/?id=1215" target="_blank" class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px">Zur Onlinereservierung</a>
-                                <a href="https://www.ticketlotse.com/storno/?event=1215" target="_blank" class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px">Sie wollen Karten stornieren?</a>
+                                <p class="w-90 md-w-100 cms-editable" id="feature-content-3">Freischaltung Online Reservierung Mitte Jänner</p>
+                                <a href="https://www.ticketlotse.com/event/?id=1215" target="_blank" class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px cms-editable" id="feature-link-1">Zur Onlinereservierung</a>
+                                <a href="https://www.ticketlotse.com/storno/?event=1215" target="_blank" class="btn btn-link btn-large text-dark-gray xs-mt-15px xs-mb-15px cms-editable" id="feature-link-2">Sie wollen Karten stornieren?</a>
                         
                             </div>
                         </div>
@@ -253,17 +237,17 @@
                         </div>
                     </div>
                     <div class="col-lg-6 md-mt-30px" data-anime='{ "opacity": [0, 1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutCirc" }'>
-                        <span class="fs-20 mb-15px text-dark-gray fw-600 d-inline-block">Aktuelles Theaterstück</span>
-                        <h2 class="alt-font fw-600 text-dark-gray ls-minus-2px mb-25px">Mucks Mäuserl Mord</h2>
-                        <p class="w-80 lg-w-100 mb-35px sm-mb-25px">
+                        <span class="fs-20 mb-15px text-dark-gray fw-600 d-inline-block cms-editable" id="current-play-title">Aktuelles Theaterstück</span>
+                        <h2 class="alt-font fw-600 text-dark-gray ls-minus-2px mb-25px cms-editable" id="current-play-heading">Mucks Mäuserl Mord</h2>
+                        <p class="w-80 lg-w-100 mb-35px sm-mb-25px cms-editable" id="current-play-description">
                             <b>Schwank in drei Akten von Ralph Wallner</b><br>
                             Rote Gummistiefel! Das war das Auffälligste, das dieser seltsame Gast anhatte, der am Abend zuvor in der Gaststube vom „Roten Raben“ saß. Und niemand fand ihn sympathisch. Weder die neue Kellnerin, der eifernde Schankbursch, der geschäftstüchtige Dorfwirt, noch dessen resolute Schwester. Und nun ist der ominöse Gast verschwunden.
                             Die patente Pfarrersköchin Mucki und die weniger patente Mesnerin Mausi, die im Vorratskeller der Dorfwirtschaft eigentlich nichts zu suchen haben, entdecken unter anderem die Gummistiefel und riechen Mord. Der Detektivsinn ist geweckt.
                             Und die Liste der verdächtigen Personen wird noch länger. Aber, psst, immer mucksmäuschenstill, sonst scheucht man den Mörder auf.</p> 
-                            <b>NEU: An Freitagen und an Samstagen ist die Ausschank auch nach der Abendvorstellung für Sie geöffnet</b>
+                            <b class="cms-editable" id="current-play-note">NEU: An Freitagen und an Samstagen ist die Ausschank auch nach der Abendvorstellung für Sie geöffnet</b>
                             <br><br>
                         <div class="d-inline-block">
-                            <a href="karten.html" class="btn btn-medium btn-dark-gray btn-box-shadow me-25px btn-round-edge">Karten reservieren</a>
+                            <a href="karten.html" class="btn btn-medium btn-dark-gray btn-box-shadow me-25px btn-round-edge cms-editable" id="current-play-button">Karten reservieren</a>
                         </div>
                     </div>
                 </div>
@@ -276,59 +260,57 @@
             <div class="container">
                 <div class="row justify-content-center mb-3">
                     <div class="col-lg-7 text-center" data-anime='{  "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <span class="fw-600 ls-1px fs-16 alt-font mb-5px d-inline-block text-uppercase text-base-color">Termine</span>
+                        <span class="fw-600 ls-1px fs-16 alt-font mb-5px d-inline-block text-uppercase text-base-color cms-editable" id="section-title">Termine</span>
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 800, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <!-- start team member item -->
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Samstag, 22.03.2025</div>
-                        <span>20:00</span>
-                    </div>
-                    <!-- end team member item -->
-                    <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Mittwoch, 26.03.2025</div>
-                        <span>14:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-1">Samstag, 22.03.2025</div>
+                        <span class="cms-editable" id="time-1">20:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Samstag, 29.03.2025</div>
-                        <span>14:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-2">Mittwoch, 26.03.2025</div>
+                        <span class="cms-editable" id="time-2">14:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Samstag, 29.03.2025</div>
-                        <span>20:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-3">Samstag, 29.03.2025</div>
+                        <span class="cms-editable" id="time-3">14:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Sonntag, 30.03.2025</div>
-                        <span>17:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-4">Samstag, 29.03.2025</div>
+                        <span class="cms-editable" id="time-4">20:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Mittwoch, 02.04.2025</div>
-                        <span>14:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-5">Sonntag, 30.03.2025</div>
+                        <span class="cms-editable" id="time-5">17:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Samstag, 05.04.2025</div>
-                        <span>14:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-6">Mittwoch, 02.04.2025</div>
+                        <span class="cms-editable" id="time-6">14:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Samstag, 05.04.2025</div>
-                        <span>20:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-7">Samstag, 05.04.2025</div>
+                        <span class="cms-editable" id="time-7">14:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Sonntag, 06.04.2025</div>
-                        <span>17:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-8">Samstag, 05.04.2025</div>
+                        <span class="cms-editable" id="time-8">20:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Freitag, 11.04.2025</div>
-                        <span>20:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-9">Sonntag, 06.04.2025</div>
+                        <span class="cms-editable" id="time-9">17:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Samstag, 12.04.2025</div>
-                        <span>14:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-10">Freitag, 11.04.2025</div>
+                        <span class="cms-editable" id="time-10">20:00</span>
                     </div>
                     <div class="col text-center team-style-05 mb-40px">
-                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18">Samstag, 12.04.2025</div>
-                        <span>20:00</span>
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-11">Samstag, 12.04.2025</div>
+                        <span class="cms-editable" id="time-11">14:00</span>
+                    </div>
+                    <div class="col text-center team-style-05 mb-40px">
+                        <div class="alt-font fw-600 text-dark-gray lh-22 fs-18 cms-editable" id="date-12">Samstag, 12.04.2025</div>
+                        <span class="cms-editable" id="time-12">20:00</span>
                     </div>
                 </div>
             </div>
@@ -341,8 +323,8 @@
                     <div class="col-xl-5 col-lg-6 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                         <span class="fw-600 ls-1px fs-16 alt-font d-inline-block text-uppercase mb-5px text-base-color">Wie alles begann</span>
                         
-                        <h2 class="text-dark-gray fw-600 ls-minus-2px">Über uns</h2>
-                        <p class="sm-w-100 mx-auto mx-lg-0">
+                        <h2 class="text-dark-gray fw-600 ls-minus-2px cms-editable" id="about-heading">Über uns</h2>
+                        <p class="sm-w-100 mx-auto mx-lg-0 cms-editable" id="about-content-1">
                             Zur Aufbesserung der Jugendkassa beschloss die Katholische Jugend Atzbach unter Führung von Maria Mittermayr und Max Doppler im Jahr 1967 ein Theater zu spielen.
                             <br><br>
                             Durch Errichtung des neuen Pfarrsaales waren dazu beste Vorraussetzungen gegeben. Mit der Spielleitung wurde Herr Johann Haas betraut.
@@ -350,12 +332,12 @@
                     </div>
                     <div class="col-lg-6 col-md-11 offset-xl-1">
                         <figure class="position-relative md-ps-40px border-radius-5px" data-anime='{ "effect": "slide", "color": "#292d36", "direction":"lr", "easing": "easeOutQuad", "delay":0}'>
-                            <img src="images/theatergruppe/group.jpg" alt="" class="border-radius-5px w-100">
+                            <img src="images/theatergruppe/group.jpg"  alt="Group Photo 1" class="border-radius-5px w-100 cms-editable" id="about-image-1">
                         </figure>
                     </div>
                 </div>
                 <div class="text-lg-start" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                    <p class="w-80 sm-w-100 mx-auto mx-lg-0">
+                    <p class="w-80 sm-w-100 mx-auto mx-lg-0 cms-editable" id="about-content-2">
                         Am 15. Juli 1967 war die Premiere des Stückes „Die Sternhoferbuam auf Brautschau“. Es gab drei Aufführungen, welche für die damaligen Verhältnisse ein großer Erfolg waren. Ab dem Jahr 1970 übernahm Frau Anna Kronlachner die Regiearbeit.
                         <br><br>
                         Die Stücke „Das große Heimweh“ und das „Heiratsgenie“ wurden in den Jahren 1973 und 1974 auch in Ottnang, Desselbrunn und Schwanenstadt aufgeführt.
@@ -363,7 +345,7 @@
                 </div>
                 <div class="row align-items-center justify-content-center text-center text-lg-start">
                     <div class="col-xl-5 col-lg-6 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                        <p class="w-100 mx-auto mx-lg-0">
+                        <p class="w-100 mx-auto mx-lg-0 cms-editable" id="about-content-3">
                             Im Jahre 1973 löste sich die Theatergruppe von der Katholischen Jugend und wurde selbstständig. Die Leitung übernahm Heinz Schachreiter. Durch seine besonderen Werbeaktivitäten und das Bemühen der Gruppe, in jedem Stück ihr Bestes zu geben, erhöhte sich die Zahl der Besucher von Jahr zu Jahr. Aus diesem Grunde wurde auch im Jahr 1977 die Platznummerierung vorgenommen.
                             <br><br>
                             Über den Vorschlag von Heinz Schachreiter wurde im gleichen Jahr die Bezeichnung „Atzbacher Theaterwochen“ eingeführt. Heute freut sich die Theatergruppe Atzbach, bei ihren Aufführungen Reisegruppen aus verschiedenen Teilen Oberösterreichs begrüßen zu dürfen. Da der Reingewinn laut Vereinsbeschluss immer für kirchliche bzw. karitative oder soziale Zwecke verwendet wird konnten von der Theatergruppe beachtliche Investitionen getätigt werden.
@@ -371,7 +353,7 @@
                     </div>
                     <div class="col-lg-6 col-md-11 offset-xl-1">
                         <figure class="position-relative md-ps-40px border-radius-5px" data-anime='{ "effect": "slide", "color": "#292d36", "direction":"lr", "easing": "easeOutQuad", "delay":0}'>
-                            <img src="images/theatergruppe/group2.jpg" alt="" class="border-radius-5px w-100">
+                            <img src="images/theatergruppe/group2.jpg" alt="Group Photo 2" class="border-radius-5px w-100" id="about-image-2">
                         </figure>
                     </div>
                 </div>
@@ -389,8 +371,8 @@
                                 <i class="line-icon-Geo2-Love icon-extra-large text-base-color mb-25px"></i>
                             </div>
                             <div class="feature-box-content last-paragraph-no-margin">
-                                <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20">Aufführungsort</span>
-                                <p>Pfarrsaal Atzbach<br> Am Ortsplatz 1<br>4904 Atzbach</p>
+                                <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20 cms-editable" id="location-title">Aufführungsort</span>
+                                <p class="cms-editable" id="location-content">Pfarrsaal Atzbach<br> Am Ortsplatz 1<br>4904 Atzbach</p>
                             </div>
                         </div>  
                     </div>
@@ -402,9 +384,9 @@
                                 <i class="line-icon-Headset icon-extra-large text-base-color mb-25px"></i>
                             </div>
                             <div class="feature-box-content last-paragraph-no-margin">
-                                <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20">Obfrau Anna Feischl</span>
+                                <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20 cms-editable" id="contact-title">Obfrau Anna Feischl</span>
                                 <div class="w-100 d-block">
-                                    <span class="d-block">Telefon: <a href="tel:0650/9781008" class="text-base-color-hover">0650/9781008</a></span>
+                                    <span class="d-block cms-editable" id="contact-phone">Telefon: <a href="tel:0650/9781008" class="text-base-color-hover">0650/9781008</a></span>
                                 </div>
                             </div>
                         </div>  
@@ -417,9 +399,9 @@
                                 <i class="line-icon-Mail-Read icon-extra-large text-base-color mb-25px"></i>
                             </div>
                             <div class="feature-box-content last-paragraph-no-margin">
-                                <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20">E-mail</span>
+                                <span class="d-inline-block alt-font fw-600 text-dark-gray mb-5px fs-20 cms-editable" id="email-title">E-mail</span>
                                 <div class="w-100 d-block">
-                                    <a href="mailto:info@theatergruppe-atzbach.at" class="d-block">info@theatergruppe-atzbach.at</a>
+                                    <a href="mailto:info@theatergruppe-atzbach.at" class="d-block cms-editable" id="email-address">info@theatergruppe-atzbach.at</a>
                                 </div>
                             </div>
                         </div>  
