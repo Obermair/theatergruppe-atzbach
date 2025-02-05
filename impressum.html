@@ -6,16 +6,18 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
          <!-- favicon icon -->
         <title class="cms-editable" id="page-title-impressum">Theatergruppe Atzbach - Impressum</title>
-        <link rel="shortcut icon" type="image/x-icon" href="images/theatergruppe/logo1.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/theatergruppe/logo1.png?v=<?php echo filemtime('images/theatergruppe/logo1.png'); ?>" />
+      
         <!-- google fonts preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- style sheets and font icons  -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/consulting/consulting.css" />
+        <link rel="stylesheet" href="css/vendors.min.css?v=<?php echo filemtime('css/vendors.min.css'); ?>"/>
+        <link rel="stylesheet" href="css/icon.min.css?v=<?php echo filemtime('css/icon.min.css'); ?>"/>
+        <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime('css/style.css'); ?>"/>
+        <link rel="stylesheet" href="css/responsive.css?v=<?php echo filemtime('css/responsive.css'); ?>"/>
+        <link rel="stylesheet" href="demos/consulting/consulting.css?v=<?php echo filemtime('demos/consulting/consulting.css'); ?>" />
+    
     </head>
     <body data-mobile-nav-style="classic">  
         <!-- start header -->
@@ -162,8 +164,8 @@
         </div>
         <!-- end scroll progress -->
         <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.js?v=<?php echo filemtime('js/jquery.js'); ?>"></script>
+        <script type="text/javascript" src="js/vendors.min.js?v=<?php echo filemtime('js/vendors.min.js'); ?>"></script>
+        <script type="text/javascript" src="js/main.js?v=<?php echo filemtime('js/main.js'); ?>"></script>
     </body>
 </html>
