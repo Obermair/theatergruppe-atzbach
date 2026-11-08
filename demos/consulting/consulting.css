@@ -128,8 +128,14 @@ footer .footer-logo img {
     font-size: 22px;
     transition: background-color .3s ease;
 }
-.social-follow-icon:hover,
-.social-follow-icon:focus {
+.social-follow-icon i {
+    color: inherit;
+}
+/* beats the template's ".footer-light a:hover" so the icon stays white */
+.footer-light a.social-follow-icon:hover,
+.footer-light a.social-follow-icon:focus,
+a.social-follow-icon:hover,
+a.social-follow-icon:focus {
     background-color: var(--base-color);
     color: #fff;
 }
