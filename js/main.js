@@ -788,7 +788,7 @@
                 _this.removeClass('grid-loading');
                 if (typeof $.fn.isotope === 'function') {
                     _this.isotope({
-                        layoutMode: 'masonry',
+                        layoutMode: _this.attr('data-layout-mode') || 'masonry',
                         itemSelector: '.grid-item',
                         percentPosition: true,
                         stagger: 0,

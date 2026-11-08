@@ -114,3 +114,22 @@ footer .footer-logo img {
         display: none;
     }
 }
+/* social media icons in the footer */
+.social-follow-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin: 0 6px;
+    border-radius: 10px;
+    background-color: #6b6b6b;
+    color: #fff;
+    font-size: 22px;
+    transition: background-color .3s ease;
+}
+.social-follow-icon:hover,
+.social-follow-icon:focus {
+    background-color: var(--base-color);
+    color: #fff;
+}

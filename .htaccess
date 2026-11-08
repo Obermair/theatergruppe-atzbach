@@ -1,0 +1,17 @@
+# Caching: HTML-Seiten bei jedem Aufruf beim Server auf Aktualität prüfen
+# (Antwort 304 "nicht geändert", wenn gleich -> trotzdem schnell).
+# Ohne diese Regeln cachen Browser heuristisch tagelang, z.B. mit dem
+# Reservierungslink vom Vorjahr.
+
+<IfModule mod_headers.c>
+    # HTML: immer revalidieren
+    <FilesMatch "\.(html?)$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
+
+    # CSS/JS werden per ?v=... versioniert, Bilder/PDFs ändern sich selten:
+    # 1 Tag cachen, danach revalidieren
+    <FilesMatch "\.(css|js|png|jpe?g|gif|svg|webp|ico|pdf)$">
+        Header set Cache-Control "public, max-age=86400, must-revalidate"
+    </FilesMatch>
+</IfModule>
